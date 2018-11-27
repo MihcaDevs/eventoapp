@@ -28,6 +28,7 @@ public class EventoController {
 		return "redirect:/cadastrarEvento";
 	}
 	
+	//Busca lista de eventos cadastrados 
 	@RequestMapping("/eventos")
 	public ModelAndView listaEventos() {
 		ModelAndView mv = new ModelAndView ("index");
